@@ -1,0 +1,7 @@
+.leaflet-container {
+    height: 74vh;
+}
+main{
+    position: relative;
+    z-index: 5;
+}

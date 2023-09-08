@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url("../img/pattern-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5vh;
+}
+
+.input {
+    padding-left: 1.5vw;
+    font-size: 1vw;
+    width: 32vw;
+    height: 100%;
+    border-radius: 1vh 0px 0px 1vh;
+    border: none;
+    outline: none;
+}
+.search{
+    height: 4.6vh;
+}
+.button {
+    font-size: 1vw;
+    border: none;
+    height: 100%;
+    border-radius: 0px 1vh 1vh 0px;
+    cursor: pointer;
+    width: 3vw;
+    color: white;
+    background-color: black;
+}
+@media (max-width:800px) {
+    .search{
+        height: 2rem;
+    }
+    .input {
+        padding-left: 2rem;
+        width: 15rem;
+        font-size: 0.7rem;
+    }
+    .button {
+        width: 2rem;
+        font-size: 0.789rem;
+        height: 2.2rem;
+    }
+    .container{
+        background-image: url("../img/pattern-bg-mobile.png");
+    }
+}
